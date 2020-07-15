@@ -39,9 +39,8 @@ const (
 func NewCollector() (Collector, error) {
 	c := &collector{
 		reportCounter: prometheus.NewCounterVec(prometheus.CounterOpts{
-			Namespace: "http",
-			Subsystem: "csp",
-			Name:      "violations_count",
+			Namespace: "csp",
+			Name:      "violation_reports_total",
 			Help:      "Count of CSP violation reports.",
 		}, []string{
 			labelApp,
