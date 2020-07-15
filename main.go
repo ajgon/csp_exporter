@@ -16,7 +16,7 @@ import (
 )
 
 type config struct {
-	CollectorBindAddr string `envconfig:"COLLECTOR_BIND_ADDR" required:"true"`
+	CollectorBindAddr string `envconfig:"COLLECTOR_BIND_ADDR" default:":80"`
 	PromBindAddr      string `envconfig:"PROM_BIND_ADDR" default:":9477"`
 }
 
