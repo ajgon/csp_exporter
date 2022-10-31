@@ -1,5 +1,15 @@
 # Prometheus Exporter for Content Security Policy violations
 
+```diff
+- IMPORTANT -
+This is a fork of https://git.burwell.io/csp_exporter, with Dockerfile added.
+All credits go to original author.
+
+Image is available at ghcr.io/ajgon/csp_exporter
+
+Defaults ports are 8000 (for collector) and 9477 (for metrics)
+```
+
 `csp_exporter` is a web server that listens for reports of [Content Security
 Policy][csp] violations and exposes the reports as Prometheus metrics so that
 you can incorporate CSP violations into your normal monitoring and alerting
