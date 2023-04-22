@@ -5,7 +5,10 @@
 This is a fork of https://git.burwell.io/csp_exporter, with Dockerfile added.
 All credits go to original author.
 
-Image is available at ghcr.io/ajgon/csp_exporter
+🚧 THIS REPO IS NO LONGER MAINTAINED 🚧
+
+New home: https://github.com/ajgon/containers/tree/master/apps/csp-exporter
+Docker image: ghcr.io/ajgon/csp-exporter
 
 Defaults ports are 8000 (for collector) and 9477 (for metrics)
 ```
